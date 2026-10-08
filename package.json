@@ -1,0 +1,1 @@
+{ "name": "apiwatch-rawhttp-demo", "private": true, "type": "module", "description": "Static raw-HTTP (fetch) call to a vendor API, used as the apiwatch raw-HTTP fix demo." }
