@@ -5,7 +5,7 @@ export async function ask(): Promise<unknown> {
   const res = await fetch('https://api.openai.com/v1/demo', {
     method: 'POST',
     headers: { 'content-type': 'application/json' },
-    body: JSON.stringify({ model: 'gpt-4', prompt: 'hello', stream: false }),
+    body: JSON.stringify({ model: 'gpt-4', input: 'hello', stream: false }),
   });
   return res.json();
 }
